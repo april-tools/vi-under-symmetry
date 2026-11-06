@@ -1,0 +1,24 @@
+target_name:
+  - ellipse4D
+
+div_names:
+  - alpha
+  - fkl
+  - rkl_reinforce
+
+proposal:
+  - g
+  - t
+
+num_steps: 50000
+num_samples: 20000
+lr: 0.01
+
+seed: 42
+device: "cpu"
+plot_folder: ./training_plots
+
+scale_learnable: "t"
+rand_init: "t"
+
+n_reps: 5

@@ -1,0 +1,24 @@
+target_name:
+  - mou2D
+
+div_names:
+  - alpha_reinforce
+  - fkl
+
+proposal:
+  - g
+  - l
+  - t
+
+num_steps: 10000
+num_samples: 100000
+lr: 0.001
+
+seed: 42
+device: "cpu"
+plot_folder: ./training_plots
+
+scale_learnable: "t"
+rand_init: "t"
+
+n_reps: 5
